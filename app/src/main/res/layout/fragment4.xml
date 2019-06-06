@@ -6,14 +6,17 @@
                                                          android:layout_height="match_parent"
                                                          tools:context=".fragment4" android:id="@+id/constraintLayout">
     <TextView
+            android:id="@+id/text4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Fragment 4"
+            android:gravity="center_horizontal"
             app:layout_constraintTop_toTopOf="parent"/>
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/Button4"
             android:text="Next"
+            android:background="@color/colorAccent"
             app:layout_constraintTop_toTopOf="parent"/>
 </tools:androidx.constraintlayout.widget.ConstraintLayout>
